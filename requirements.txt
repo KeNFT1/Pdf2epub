@@ -1,0 +1,24 @@
+# PDF to ePub Converter Dependencies
+
+# Core conversion libraries
+PyMuPDF==1.23.24        # PDF processing and text extraction
+EbookLib==0.18          # ePub creation and manipulation
+
+# Image processing
+Pillow==10.3.0          # Image handling and manipulation
+
+# GUI framework (included with Python, but listed for completeness)
+# tkinter (built-in)
+
+# Packaging for .exe creation
+PyInstaller==6.5.0     # Create standalone Windows executable
+
+# Additional utilities
+pathlib                 # Path handling (built-in)
+uuid                    # Unique identifier generation (built-in)
+threading               # Multi-threading support (built-in)
+urllib                  # URL utilities (built-in)
+base64                  # Base64 encoding (built-in)
+io                      # IO operations (built-in)
+re                      # Regular expressions (built-in)
+os                      # Operating system interface (built-in)
